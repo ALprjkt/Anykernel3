@@ -480,9 +480,8 @@ if [ -f version ]; then
 fi;
 ui_print "==========================================";
 ui_print "|  Kernel         : NekoLite             |";
-ui_print "|  Version        : CAF                  |";
-ui_print "|  Device         : Redmi S2             |";
-ui_print "|  Linux version  : 4.9.227              |";
+ui_print "|  Version        : Stable               |";
+ui_print "|  Device         : Redmi S2 Ysl         |";
 ui_print "|  Maintainer     : AL                   |";
 ui_print "|========================================|";
 ui_print "| AnyKernel3 by osm0sis @xda-developers. |";
