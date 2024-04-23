@@ -479,8 +479,8 @@ if [ -f version ]; then
   ui_print " ";
 fi;
 ui_print "==========================================";
-ui_print "|  Kernel         : NekoLite             |";
-ui_print "|  Version        : Stable               |";
+ui_print "|  Kernel         : Bad-Kernel           |";
+ui_print "|  Version        : X4                   |";
 ui_print "|  Device         : Redmi S2 Ysl         |";
 ui_print "|  Maintainer     : AL                   |";
 ui_print "|========================================|";
@@ -513,4 +513,6 @@ if [ "$(file_getprop anykernel.sh do.cleanup)" == 1 ]; then
 fi;
 
 ui_print " - Done!";
-ui_print " - Congratulations, your device is broken ";
+ui_print " - Congratulations, YOUR DEVICE IS BROKEN ";
+ui_print " - Don't reboot or it will HARDBRICK ";
+ui_print " - Enjooy T_T ";
