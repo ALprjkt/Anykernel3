@@ -479,8 +479,8 @@ if [ -f version ]; then
   ui_print " ";
 fi;
 ui_print "==========================================";
-ui_print "|  Kernel         : Bad-Kernel           |";
-ui_print "|  Version        : X4                   |";
+ui_print "|  Kernel         : One-Piece-Kernel     |";
+ui_print "|  Version        : X1                   |";
 ui_print "|  Device         : Redmi S2 Ysl         |";
 ui_print "|  Maintainer     : AL                   |";
 ui_print "|========================================|";
@@ -515,4 +515,4 @@ fi;
 ui_print " - Done!";
 ui_print " - Congratulations, YOUR DEVICE IS BROKEN ";
 ui_print " - Don't reboot or it will HARDBRICK ";
-ui_print " - Enjooy T_T ";
+ui_print " - ENJOY ^_^ ";
