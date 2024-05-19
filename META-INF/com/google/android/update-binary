@@ -479,9 +479,9 @@ if [ -f version ]; then
   ui_print " ";
 fi;
 ui_print "==========================================";
-ui_print "|  Kernel         : One-Piece-Kernel     |";
-ui_print "|  Linux Version  : 4.9.337              |";
-ui_print "|  Device         : Redmi S2/Y2 Ysl      |";
+ui_print "|  Kernel         : Nekolite-CAF         |";
+ui_print "|  Linux Version  : 4.9.227              |";
+ui_print "|  Device         : Redmi 5 Plus Vince   |";
 ui_print "|  Maintainer     : AL                   |";
 ui_print "|========================================|";
 ui_print "| AnyKernel3 by osm0sis @xda-developers. |";
