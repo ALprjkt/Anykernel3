@@ -479,8 +479,8 @@ if [ -f version ]; then
   ui_print " ";
 fi;
 ui_print "==========================================";
-ui_print "|  Kernel         : OnePiece-CAF         |";
-ui_print "|  Linux Version  : 4.9.227              |";
+ui_print "|  Kernel         : OnePiece             |";
+ui_print "|  Linux Version  : 4.9.237              |";
 ui_print "|  Device         : Redmi S2/Y2 Ysl      |";
 ui_print "|  Maintainer     : AL                   |";
 ui_print "|========================================|";
