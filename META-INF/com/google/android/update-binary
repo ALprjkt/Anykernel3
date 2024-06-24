@@ -479,10 +479,10 @@ if [ -f version ]; then
   ui_print " ";
 fi;
 ui_print "==========================================";
-ui_print "|  Kernel         : OnePiece             |";
-ui_print "|  Linux Version  : 4.9.337              |";
+ui_print "|  Kernel         : Paradise CAF/CLO     |";
+ui_print "|  Linux Version  : 4.9.227              |";
 ui_print "|  Device         : Redmi S2/Y2 Ysl      |";
-ui_print "|  Maintainer     : AL                   |";
+ui_print "|  Maintainer     : AL x RenzAlt         |";
 ui_print "|========================================|";
 ui_print "| AnyKernel3 by osm0sis @xda-developers. |";
 ui_print "==========================================";
