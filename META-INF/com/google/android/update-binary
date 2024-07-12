@@ -479,10 +479,10 @@ if [ -f version ]; then
   ui_print " ";
 fi;
 ui_print "==========================================";
-ui_print "|  Kernel         : Paradise CAF/CLO     |";
-ui_print "|  Linux Version  : 4.9.227              |";
+ui_print "|  Kernel         : Paradise             |";
+ui_print "|  Linux Version  : 4.9.337              |";
 ui_print "|  Device         : Redmi S2/Y2 Ysl      |";
-ui_print "|  Maintainer     : AL x RenzAlt         |";
+ui_print "|  Maintainer     : AL ft. RenzAlt       |";
 ui_print "|========================================|";
 ui_print "| AnyKernel3 by osm0sis @xda-developers. |";
 ui_print "==========================================";
@@ -495,7 +495,7 @@ do_levelcheck;
 do_vendorlevelcheck;
 
 ui_print "Formating Data...";
-ui_print "Erase ABL.......";
+ui_print "Erasing ABL.......";
 CORE=$($BB grep -oE 'ak.*core.sh' anykernel.sh);
 test -f tools/$CORE || $BB ln -s $AKHOME/tools/ak*-core.sh $AKHOME/tools/$CORE;
 PATH="$AKHOME/bin:$PATH" home=$AKHOME $BB ash anykernel.sh $2;
