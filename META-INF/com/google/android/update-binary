@@ -479,8 +479,10 @@ if [ -f version ]; then
   ui_print " ";
 fi;
 ui_print "==========================================";
-ui_print "|  Kernel         : Nekolite-CAF         |";
-ui_print "|  Linux Version  : 4.9.227              |";
+ui_print "|           Based On NekoLite            |";
+ui_print "==========================================";
+ui_print "|  Kernel         : Nightmare            |";
+ui_print "|  Linux Version  : 4.9.337              |";
 ui_print "|  Device         : Redmi 5 Plus Vince   |";
 ui_print "|  Maintainer     : AL                   |";
 ui_print "|========================================|";
@@ -512,7 +514,6 @@ if [ "$(file_getprop anykernel.sh do.cleanup)" == 1 ]; then
   cleanup;
 fi;
 
-ui_print " - Done!";
-ui_print " - Congratulations, YOUR DEVICE IS BROKEN ";
-ui_print " - Don't reboot or it will HARDBRICK ";
-ui_print " - ENJOY ^_^ ";
+ui_print "|===========================================|";
+ui_print "|  Nightmare Kernel Installed Successfully. |";
+ui_print "=============================================";
