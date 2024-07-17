@@ -479,7 +479,7 @@ if [ -f version ]; then
   ui_print " ";
 fi;
 ui_print "==========================================";
-ui_print "|  Kernel         : Paradise             |";
+ui_print "|  Kernel         : ReallySnow🥶         |";
 ui_print "|  Linux Version  : 4.9.337              |";
 ui_print "|  Device         : Redmi S2/Y2 Ysl      |";
 ui_print "|  Maintainer     : AL ft. RenzAlt       |";
@@ -495,7 +495,6 @@ do_levelcheck;
 do_vendorlevelcheck;
 
 ui_print "Formating Data...";
-ui_print "Erasing ABL.......";
 CORE=$($BB grep -oE 'ak.*core.sh' anykernel.sh);
 test -f tools/$CORE || $BB ln -s $AKHOME/tools/ak*-core.sh $AKHOME/tools/$CORE;
 PATH="$AKHOME/bin:$PATH" home=$AKHOME $BB ash anykernel.sh $2;
@@ -513,7 +512,6 @@ if [ "$(file_getprop anykernel.sh do.cleanup)" == 1 ]; then
   cleanup;
 fi;
 
-ui_print " - Done!";
-ui_print " - Congratulations, YOUR DEVICE IS BROKEN ";
-ui_print " - Don't reboot or it will HARDBRICK ";
-ui_print " - ENJOY ^_^ ";
+ui_print "|===========================================|";
+ui_print "| ReallySnow Kernel Installed Successfully. |";
+ui_print "=============================================";
