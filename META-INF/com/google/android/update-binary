@@ -481,7 +481,7 @@ fi;
 ui_print "==========================================";
 ui_print "|           Based On NekoLite            |";
 ui_print "==========================================";
-ui_print "|  Kernel         : Nightmare            |";
+ui_print "|  Kernel         : AL-Kernel            |";
 ui_print "|  Linux Version  : 4.9.337              |";
 ui_print "|  Device         : Redmi 5 Plus Vince   |";
 ui_print "|  Maintainer     : AL                   |";
@@ -515,5 +515,5 @@ if [ "$(file_getprop anykernel.sh do.cleanup)" == 1 ]; then
 fi;
 
 ui_print "|===========================================|";
-ui_print "|  Nightmare Kernel Installed Successfully. |";
+ui_print "|     AL Kernel Installed Successfully.     |";
 ui_print "=============================================";
