@@ -9,6 +9,7 @@ do.modules=0
 do.cleanup=1
 do.cleanuponabort=0
 device.name1=ysl
+device.name2=vince
 supported.versions=
 supported.patchlevels=
 supported.vendorpatchlevels=
