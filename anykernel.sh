@@ -10,6 +10,7 @@ do.cleanup=1
 do.cleanuponabort=0
 device.name1=ysl
 device.name2=vince
+device.name2=rosy
 supported.versions=
 supported.patchlevels=
 supported.vendorpatchlevels=
