@@ -479,10 +479,10 @@ if [ -f version ]; then
   ui_print " ";
 fi;
 ui_print "==========================================";
-ui_print "|  Kernel         : ReallySnow🥶         |";
-ui_print "|  Linux Version  : 4.9.337              |";
-ui_print "|  Device         : Redmi S2/Y2 Ysl      |";
-ui_print "|  Maintainer     : AL ft. RenzAlt       |";
+ui_print "|  Kernel         : Experiment           |";
+ui_print "|  Linux Version  : 4.19.157             |";
+ui_print "|  Device         : Msm8953 Devices      |";
+ui_print "|  Maintainer     : RenzAlt              |";
 ui_print "|========================================|";
 ui_print "| AnyKernel3 by osm0sis @xda-developers. |";
 ui_print "==========================================";
@@ -513,5 +513,5 @@ if [ "$(file_getprop anykernel.sh do.cleanup)" == 1 ]; then
 fi;
 
 ui_print "|===========================================|";
-ui_print "| ReallySnow Kernel Installed Successfully. |";
+ui_print "|      Kernel Installed Successfully.       |";
 ui_print "=============================================";
