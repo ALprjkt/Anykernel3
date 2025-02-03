@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=Nakama Kernel by AL @ telegram
+kernel.string=NekoLite Kernel by k4ngcaribug @ telegram
 do.devicecheck=1
 do.modules=1
 do.systemless=0
